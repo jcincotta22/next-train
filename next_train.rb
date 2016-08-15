@@ -8,6 +8,7 @@ leaving = gets.chomp.to_f
 # t = train_times.select do |x|
 #    leaving <= x
 #  end
+# comment to be seen on git
 t = nil
 train_times.each do |x|
     if leaving <= x
